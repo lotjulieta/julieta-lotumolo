@@ -4,6 +4,7 @@ import Portada from "./components/shared/Portada";
 import Aboutme from "./pages/Aboutme";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
+import Footer from "./pages/Footer";
 import Skills from "./pages/Skills";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Experience/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
