@@ -14,9 +14,15 @@ export default function Aboutme() {
               <p className="text-xl leading-relaxed text-center">
                 I am a passionate Backend Developer with experience in Python and Javascript. I have worked in web development, AI development, robotics and automation. I specialize in web design, data modeling, and programming. I am great at effectively leading teams and fostering proactivity in the workplace.
               </p>
+              <div className="flex justify-center">
+            <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4" type="submit">
+              Download CV
+            </button>
+          </div>
             </div>
           </div>
         </div>
+        
       </section>
     </div>
   );
