@@ -10,13 +10,13 @@ import Skills from "./pages/Skills";
 function App() {
   return (
   <div>
-      <Header />
-      <Portada />
-      <Aboutme />
-      <Skills />
-      <Experience/>
-      <Contact/>
-      <Footer/>
+    <div><Header /></div>
+    <div><Portada /></div>
+    <div id="aboutme"><Aboutme /></div>
+    <div id="skills"><Skills /></div>
+    <div id="experience"><Experience/></div>
+    <div id="contact"><Contact/></div>
+    <div><Footer/></div>
     </div>
   );
 }

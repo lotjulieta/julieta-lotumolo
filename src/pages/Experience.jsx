@@ -8,14 +8,16 @@ export default function Experience() {
 
   return (
     <div className="my-20">
-      <h1 className="text-center text-5xl mb-20" style={{ marginTop: '150px'}}>Work Experience</h1>
-      <div className="flex justify-center items-center space-x-4">
+      <h1 className="text-center text-5xl mb-20" style={{ marginTop: '150px', color: '#6C63FF', marginBottom: '110px'}}>Work Experience</h1>
+      <div className="flex flex-wrap justify-center items-start space-x-4">
         {cards.map((card, index) => (
-          <div key={index} className="relative overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-110 w-80">
-            <div className="bg-gray-800 rounded-lg p-6 text-white shadow-lg hover:bg-gray-700" style={{ height: 'fit-content', maxHeight: '400px' }}>
-              <h2 className="text-lg font-semibold">{card.title}</h2>
-              <p className="text-sm mb-4">{card.years}</p>
-              <p className="text-sm">{card.description}</p>
+          <div key={index} className="flex-1 flex justify-center mb-8">
+            <div className="relative overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-110" style={{ width: '300px', maxHeight: '400px' }}>
+              <div className="bg-gray-800 rounded-lg p-6 text-white shadow-lg hover:bg-gray-700 h-full">
+                <h2 className="text-lg font-semibold">{card.title}</h2>
+                <p className="text-sm mb-4">{card.years}</p>
+                <p className="text-sm">{card.description}</p>
+              </div>
             </div>
           </div>
         ))}

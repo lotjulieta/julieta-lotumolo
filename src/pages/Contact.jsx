@@ -30,10 +30,10 @@ export default function Contact() {
   return (
    <div className="container mx-auto my-22 flex items-start">
       <div className="w-full md:w-3/4 ">
-        <img src="src\images\undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto w-full" style={{ marginTop: '230px', marginLeft: '-200px' }} />
+        <img src="src\images\undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto w-full" style={{ marginTop: '130px', marginLeft: '-200px' }} />
       </div>
       <div className="w-full md:w-1/2 " style={{  marginLeft: '-200px' }}>
-        <h1 className="text-5xl text-center mb-10 mt-10" style={{ marginLeft: '-520px' }}>Contact me!</h1>
+        <h1 className="text-5xl text-center mb-4" style={{ marginLeft: '-520px', color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
         <div className="flex flex-wrap justify-center">
           <a
             href="https://www.linkedin.com/in/julieta-lotumolo/"

@@ -1,7 +1,7 @@
 export default function Skills() {
   return(
     <div className="container mx-auto my-22">
-      <h1 className="text-5xl text-center mb-20" style={{ marginTop: '30px'}}>I have experience with these technologies</h1>
+      <h1 className="text-5xl text-center mb-20" style={{ marginTop: '30px', color:'#4b5563'}}>I have experience with these technologies</h1>
       <div className="flex flex-wrap justify-center">
         <div className="w-1/7 p-4">
           <img src="src\images\icons8-python-48.png" alt="Logo Tecnología python" className="w-full" />
