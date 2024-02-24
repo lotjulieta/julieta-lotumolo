@@ -30,7 +30,7 @@ export default function Contact() {
   return (
    <div className="container mx-auto my-22 flex items-start">
       <div className="w-full md:w-3/4 ">
-        <img src="src\images\undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto w-full" style={{ marginTop: '130px', marginLeft: '-200px' }} />
+        <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto w-full" style={{ marginTop: '130px', marginLeft: '-200px' }} />
       </div>
       <div className="w-full md:w-1/2 " style={{  marginLeft: '-200px' }}>
         <h1 className="text-5xl text-center mb-4" style={{ marginLeft: '-520px', color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
@@ -42,7 +42,7 @@ export default function Contact() {
             className="mr-2 mt-20"
           >
             <button className="bg-zinc-950 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-              <img src="src\images\icons8-linkedin-240.png" alt="LinkedIn" className="h-6 w-6 mr-2 inline-block" />
+              <img src="/images/icons8-linkedin-240.png" alt="LinkedIn" className="h-6 w-6 mr-2 inline-block" />
               LinkedIn
             </button>
           </a>
@@ -53,7 +53,7 @@ export default function Contact() {
             className="mr-2 mt-20"
           >
             <button className="bg-zinc-950 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-              <img src="src\images\icons8-github-96.png" alt="GitHub" className="h-6 w-6 mr-2 inline-block" />
+              <img src="/images/icons8-github-96.png" alt="GitHub" className="h-6 w-6 mr-2 inline-block" />
               GitHub
             </button>
           </a>

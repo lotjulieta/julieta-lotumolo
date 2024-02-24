@@ -28,7 +28,7 @@ export default function Portada() {
           </div>
         </div>
         <div style={ { marginRight: '-200px'}}>
-          <img src="src\images\undraw_Software_engineer_re_tnjc-Photoroom.png-Photoroom.png" alt="Your Image" className="mx-auto lg:mx-0" />
+          <img src="/images/undraw_Software_engineer_re_tnjc-Photoroom.png-Photoroom.png" alt="Your Image" className="mx-auto lg:mx-0" />
         </div>
       </div>
     </section>

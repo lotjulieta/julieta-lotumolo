@@ -7,7 +7,7 @@ export default function Aboutme() {
         <div className="bg-gray-800 rounded-lg p-6 text-white shadow-lg hover:bg-gray-700" style={{ height: 'fit-content', maxHeight: '400px' }}>
           <div className="lg:flex lg:items-center">
             <div className="lg:w-1/2 lg:pr-10 mb-4 lg:mb-0">
-              <img src="src\images\foto-cv.jpg" alt="Your Image" className="rounded-full" style={{ width: '310px'}} />
+              <img src="/images/foto-cv.jpg" alt="Your Image" className="rounded-full" style={{ width: '310px'}} />
             </div>
             <div className="lg:w-1/2">
               <h2 className="text-5xl font-bold mb-4 text-center" style={{ color: '#4b5563'}}>About <span style={{ color: '#6C63FF'}}>Me</span></h2>
