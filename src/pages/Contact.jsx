@@ -28,18 +28,18 @@ export default function Contact() {
   };
 
   return (
-   <div className="container mx-auto my-22 flex items-start">
-      <div className="w-full md:w-3/4 ">
-        <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto w-full" style={{ marginTop: '130px', marginLeft: '-200px' }} />
+   <div className="container mx-auto my-8 md:my-22 flex flex-col items-center md:flex-row">
+    <div className="w-full md:w-3/4 hidden md:block">
+        <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto md:max-w-full" style={{ marginLeft: '-130px' }} />
       </div>
-      <div className="w-full md:w-1/2 " style={{  marginLeft: '-200px' }}>
-        <h1 className="text-5xl text-center mb-4" style={{ marginLeft: '-520px', color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
-        <div className="flex flex-wrap justify-center">
+      <div className="w-full md:w-1/2 md:mr-8">
+        <h1 className="text-5xl text-center md:text-left mb-4" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
+        <div className="flex flex-wrap justify-center md:justify-start">
           <a
             href="https://www.linkedin.com/in/julieta-lotumolo/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-2 mt-20"
+            className="mr-2 mt-4 md:mt-0"
           >
             <button className="bg-zinc-950 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
               <img src="/images/icons8-linkedin-240.png" alt="LinkedIn" className="h-6 w-6 mr-2 inline-block" />
@@ -50,7 +50,7 @@ export default function Contact() {
             href="https://github.com/lotjulieta"
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-2 mt-20"
+            className="mr-2 mt-4 md:mt-0"
           >
             <button className="bg-zinc-950 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
               <img src="/images/icons8-github-96.png" alt="GitHub" className="h-6 w-6 mr-2 inline-block" />
@@ -58,22 +58,22 @@ export default function Contact() {
             </button>
           </a>
         </div>
-        <p className='text-xl text-center mt-8 mb-8'>or send me an email</p>
-        <form onSubmit={handleSubmit} className="w-full max-w-md mt-4 mx-auto">
+        <p className='text-xl text-center md:text-left mt-8 mb-8'>or send me an email</p>
+        <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
           <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full px-3 mb-6 md:mb-0">
+            <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
                 Name
               </label>
               <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="name" type="text" placeholder="Your name" name="name" value={formData.name} onChange={handleChange} required />
             </div>
-            <div className="w-full px-3 mb-6 md:mb-0">
+            <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="email">
                 Email
               </label>
               <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="example@example.com" name="email" value={formData.email} onChange={handleChange} required />
             </div>
-            <div className="w-full px-3 mb-6 md:mb-0">
+            <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-2" htmlFor="message">
                 Mesagge
               </label>
