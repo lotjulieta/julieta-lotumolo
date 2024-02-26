@@ -3,7 +3,7 @@ import './styles-shared.css';
 export default function Header() {
   return (
     <header className="bg-zinc-950 border-gray-200 dark:bg-zinc-950 text-white py-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="mx-auto flex justify-between items-center md:ml-8 md:mr-8">
         <h1 className="text-xl font-bold">Julieta Lotumolo</h1>
         <nav className="md:hidden">
           <button className="mobile-menu-button">

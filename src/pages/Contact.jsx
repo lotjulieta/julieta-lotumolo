@@ -28,13 +28,14 @@ export default function Contact() {
   };
 
   return (
-   <div className="container mx-auto my-8 md:my-22 flex flex-col items-center md:flex-row">
+   <div>
+    <h1 className="text-5xl text-center md:mb-16" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
+    <div className="container mx-auto my-22 flex">
     <div className="w-full md:w-3/4 hidden md:block">
         <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto md:max-w-full" style={{ marginLeft: '-130px' }} />
       </div>
-      <div className="w-full md:w-1/2 md:mr-8">
-        <h1 className="text-5xl text-center md:text-left mb-4" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
-        <div className="flex flex-wrap justify-center md:justify-start">
+      <div className="w-full md:w-1/2 ">
+        <div className="flex flex-wrap justify-center">
           <a
             href="https://www.linkedin.com/in/julieta-lotumolo/"
             target="_blank"
@@ -58,8 +59,8 @@ export default function Contact() {
             </button>
           </a>
         </div>
-        <p className='text-xl text-center md:text-left mt-8 mb-8'>or send me an email</p>
-        <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
+        <p className='text-xl text-center text-white md:items-center md:text-center mt-8 mb-8'>or send me an email</p>
+        <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto md:max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
@@ -77,7 +78,7 @@ export default function Contact() {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-2" htmlFor="message">
                 Mesagge
               </label>
-              <textarea className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" placeholder="Write your message here..." name="message" value={formData.message} onChange={handleChange} required />
+              <textarea className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-40 md:h-48 resize-none" id="message" placeholder="Write your message here..." name="message" value={formData.message} onChange={handleChange} required />
             </div>
           </div>
           <div className="flex justify-center">
@@ -87,6 +88,7 @@ export default function Contact() {
           </div>
         </form>
       </div>
-    </div>
+      </div>
+   </div>
   );
 }
