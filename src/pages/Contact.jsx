@@ -29,7 +29,7 @@ export default function Contact() {
 
   return (
    <div>
-    <h1 className="text-5xl text-center md:mb-16" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
+    <h1 className="text-5xl text-center md:mb-16 sm:mb-20" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
     <div className="container mx-auto my-22 flex">
     <div className="w-full md:w-3/4 hidden md:block">
         <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto md:max-w-full" style={{ marginLeft: '-130px' }} />

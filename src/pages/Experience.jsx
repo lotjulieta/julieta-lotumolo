@@ -7,8 +7,8 @@ export default function Experience() {
   ];
 
   return (
-    <div className="my-20">
-      <h1 className="text-center text-5xl md:mb-20" style={{ marginTop: '150px', color: '#6C63FF', marginBottom: '110px'}}>Work Experience</h1>
+    <div className="my-10">
+      <h1 className="text-center text-5xl md:mb-20" style={{ marginTop: '120px', color: '#6C63FF', marginBottom: '110px'}}>Work Experience</h1>
       <div className="flex flex-wrap justify-center items-start space-x-4">
         {cards.map((card, index) => (
           <div key={index} className="flex-1 flex justify-center mb-8">
