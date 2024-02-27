@@ -2,7 +2,7 @@ export default function Footer(){
     return (
         <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto flex justify-between items-center sm:ml-10 md:ml-20">
-        <p className="text-sm sm:ml-6 md:ml-20">&copy; 2024 Julieta Lotumolo</p>
+        <p className="text-sm sm:ml-6 md:ml-20" style={{ marginLeft: '40px'}}>&copy; 2024 Julieta Lotumolo</p>
          <div>
             <h3 className="text-lg font-semibold text-white mb-4 mt-10 sm:ml-0 md:ml-20">Contact</h3>
             <div className="flex text-gray-300 mb-2 items-center sm:ml-0 md:ml-20">
