@@ -11,8 +11,8 @@ function App() {
   return (
   <div>
     <div><Header /></div>
-    <div><Portada /></div>
-    <div id="aboutme"><Aboutme /></div>
+    <div id="home"><Portada /></div>
+    <div id="about"><Aboutme /></div>
     <div id="skills"><Skills /></div>
     <div id="experience"><Experience/></div>
     <div id="contact"><Contact/></div>
