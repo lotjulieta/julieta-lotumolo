@@ -60,7 +60,7 @@ export default function Contact() {
           </a>
         </div>
         <p className='text-xl text-center text-white md:items-center md:text-center mt-8 mb-8'>or send me an email</p>
-        <form onSubmit={handleSubmit} className="md:w-full sm:w-3/4 max-w-md mx-auto md:max-w-lg">
+        <form onSubmit={handleSubmit} className="md:w-full sm:w-1/2 max-w-md mx-auto md:max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
