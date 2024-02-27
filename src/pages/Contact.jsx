@@ -29,7 +29,7 @@ export default function Contact() {
 
   return (
    <div>
-    <h1 className="text-5xl text-center md:mb-16 sm:mb-20" style={{ color:'#6C63FF' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
+    <h1 className="text-5xl text-center" style={{ color:'#6C63FF', marginBottom: '80px' }}>Contact <span style={{ color: '#4b5563'}}>Me!</span></h1>
     <div className="container mx-auto my-22 flex">
     <div className="w-full md:w-3/4 hidden md:block">
         <img src="/images/undraw_real_time_collaboration_c62i-Photoroom.png-Photoroom.png" alt="Contact" className="h-auto md:max-w-full" style={{ marginLeft: '-130px' }} />
@@ -60,7 +60,7 @@ export default function Contact() {
           </a>
         </div>
         <p className='text-xl text-center text-white md:items-center md:text-center mt-8 mb-8'>or send me an email</p>
-        <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto md:max-w-lg">
+        <form onSubmit={handleSubmit} className="md:w-full sm:w-3/4 max-w-md mx-auto md:max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3 mb-6">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
